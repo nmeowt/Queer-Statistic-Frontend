@@ -13,9 +13,9 @@ const Home: React.FC = () => {
       <BackgroundOverlay />
       <ContainerGrid maxWidth="xl">
         <Grid container spacing={4}>
-          <Grid item lg={4} xs={12}>
+          <GridStatistic item lg={4} xs={12}>
             <Statistic />
-          </Grid>
+          </GridStatistic>
           <MainGrid item lg={8} xs={12}>
             <MainContent />
           </MainGrid>
@@ -61,7 +61,10 @@ const BackgroundOverlay = styled.div`
 `;
 const ContainerGrid = styled(Container)`
   padding-right: 0 !important;
-`
+`;
 const MainGrid = styled(Grid)`
   padding: 0 !important;
-`
+`;
+const GridStatistic = styled(Grid)`
+  padding: 0 30px !important;
+`;
