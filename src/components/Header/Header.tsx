@@ -51,7 +51,7 @@ const Navbar = styled.header`
   transition: transform 0.6s ease 0s;
 `;
 const Logo = styled.div`
-  font-size: 25px;
+  font-size: 1.5em;
   font-weight: 700;
   letter-spacing: 0.5px;
   display: block;
@@ -69,4 +69,5 @@ const CenterDiv = styled(Grid)`
 const Text = styled.a`
   color: #fff;
   text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 `;

@@ -58,7 +58,6 @@ const Section = styled(Grid)`
 `;
 const Typing = styled.h1`
   color: rgb(0, 0, 0);
-  font-family: monospace;
   overflow: hidden;
   white-space: nowrap;
   margin: 0 auto;
